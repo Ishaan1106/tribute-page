@@ -20,7 +20,8 @@ body {
   min-height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
-
+  scroll-behavior:smooth ;
+  
 }
 body::-webkit-scrollbar{
   display: none;
@@ -33,6 +34,7 @@ nav {
   margin: 0px 10%;
   padding: 40px 10%;
   left: 9%;
+  transition: 2s;
 }
 
 /*nav bar in horizontally*/
@@ -269,7 +271,6 @@ li a:hover {
 }
 
 .para6 {
-  position:absolute
   margin-top: 20px;
   word-spacing: 10px;
   line-height: 2.5;

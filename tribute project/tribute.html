@@ -14,15 +14,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Pixels&display=swap"
       rel="stylesheet"
     />
-    <!-- style --> 
+    <!-- style -->
     <link rel="stylesheet" href="./tru-style.css" />
   </head>
   <body>
-    <div class="box" id="home">
+    <div class="box">
       <img src="./images/abjul.png" />
       <p class="submit">A Tribute to</p>
       <p class="name">Dr Apj Abdul Kalam</p>
-      <p class="year">1931-2015</p>
+      <p class="year">1931-2015</p>      
       <p class="intro">
         "we pay tribute to an Indian scientist and politician who played a
         leading role in the development of India’s missile and nuclear weapons
@@ -33,10 +33,10 @@
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#Home">Home</a>
           </li>
           <li>
-            <a href="#Introd">Introduction</a>
+            <a href="#Introd">Introduction</a>            
           </li>
           <li>
             <a href="#famous">Famous works</a>
@@ -45,11 +45,16 @@
             <a href="#Honours">Honours</a>
           </li>
         </ul>
+        <button class="tribute-button" onclick="redirectToTributePage()">Pay Tribute</button>
       </nav>
+      
     </div>
-<div class="btn">
-  <a href="#home"><button type="button"><img src="./images/arrow-up-solid.svg" alt=""></button></a>
-</div>
+    <a href="#" id="arrow-link">
+      <img src="./images/arrw.png" alt="Arrow" id="arrow-image">
+    </a>
+    
+
+    
     <!-- intro -->
     <div id="Introd">
       <p class="head1">Introduction</p>
@@ -219,11 +224,13 @@
           <li>IEEE Honorary Membership (2011)</li>
         </ul>
       </marquee>
+      
 
       <div class="end_line"></div>
       <div class="missile_man_img">
         <img src="./images/missile_man.png" />
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -16,6 +16,7 @@
 }
 html,
 
+
 body {
   min-height: 100%;
   width: 100%;
@@ -25,6 +26,20 @@ body {
 }
 body::-webkit-scrollbar{
   display: none;
+}
+
+div.btn button{
+  position:fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  border: 30px;
+  z-index: 999;
+  background-color: white;
+  size: 10%;
+  padding: -50px;
+  left:90%;
+  top:80%;
 }
 
 nav {

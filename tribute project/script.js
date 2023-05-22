@@ -27,7 +27,5 @@ document.getElementById("arrow-link").addEventListener("click", function() {
     });
   });
 
-  
-  
 
   

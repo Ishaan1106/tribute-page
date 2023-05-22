@@ -1,0 +1,44 @@
+body
+{
+    background-color: black;
+}
+
+
+h1
+{
+    color: rgb(255, 255, 255);   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bolder;
+}
+
+
+#thankyou-image {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 200px;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 500px;
+    opacity: 0.6;
+    animation-name: borderAnimation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes borderAnimation {
+    0% {
+      border-color: rgba(255, 38, 38, 0.973);
+    }
+    50% {
+      border-color: rgb(0, 255, 55);
+    }
+    100% {
+      border-color: rgb(1, 247, 247);
+    }
+  }
+  

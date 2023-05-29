@@ -1,0 +1,51 @@
+body {
+    background-image: url(./images/bk.jpg);
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+  
+  h1
+  {
+    text-align: center;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(10, 177, 255);
+    font-style: italic;
+
+  }
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-top: 40px;
+    padding: 10px;
+    color: rgb(255, 39, 140);
+    font-style: italic;
+    animation: glowingAnimation 2s ease-in-out infinite;
+  }
+  p:hover {
+    transform: scale(1.01);
+  }
+  
+  @keyframes glowingAnimation {
+    0% {
+      box-shadow: 0 0 5px rgba(0, 153, 255, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 153, 255, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(0, 153, 255, 0.3);
+    }
+  }
+  

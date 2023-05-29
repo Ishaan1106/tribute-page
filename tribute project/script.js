@@ -16,7 +16,7 @@ const names = [
   setInterval(shuffleText, 1990); // Change text every 3 seconds
 
   function redirectToTributePage() {
-    window.location.href = "thanks_page.html";
+    window.location.href = "thanks_page.html";  
   }
 
   // Scroll to top when arrow image is clicked
@@ -27,5 +27,7 @@ document.getElementById("arrow-link").addEventListener("click", function() {
     });
   });
 
+  
+  
 
   

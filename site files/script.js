@@ -6,12 +6,12 @@ const names = [
   ];
   let index = 0;
   const nameElement = document.querySelector('.name');
-  
+
   function shuffleText() {
     nameElement.textContent = names[index];
     index = (index + 1) % names.length;
   }
-  
+
   shuffleText(); // Initial text
   setInterval(shuffleText, 1990); // Change text every 3 seconds
 
@@ -26,6 +26,3 @@ document.getElementById("arrow-link").addEventListener("click", function() {
       behavior: "smooth"
     });
   });
-
-
-  

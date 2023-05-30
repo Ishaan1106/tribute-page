@@ -7,8 +7,9 @@
 body, html {
   color: #46494C;
   font-family: Segoe UI;
+  scroll-behavior:smooth ;
 }
-
+ 
 .main_container {
   background-color: #eee;
   max-width: 90vw;
